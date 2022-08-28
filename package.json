@@ -7,8 +7,14 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/vue": "^6.6.1",
+    "jest-serializer-vue": "^2.0.2",
+    "jsdom": "^20.0.0",
     "nuxt": "3.0.0-rc.8",
-    "vite-svg-loader": "^3.4.0"
+    "vite-svg-loader": "^3.4.0",
+    "vitest": "^0.22.1"
   },
   "dependencies": {
     "sass": "^1.54.5",

@@ -8,6 +8,7 @@
     <div
       v-text="getText(player1, player2)"
       class="text-h4"
+      data-testid="result"
     />
     <v-icon
       :icon="player2"
