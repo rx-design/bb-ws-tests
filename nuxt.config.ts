@@ -14,6 +14,9 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true,
   },
+  ignore: [
+    "**/*.cy.ts",
+  ],
   vite: {
     define: {
       'process.env.DEBUG': false,

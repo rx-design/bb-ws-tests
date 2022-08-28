@@ -7,6 +7,7 @@
       variant="flat"
       size="x-large"
       class="mx-1"
+      data-testid="button"
       @click="emit('click', option)"
     />
   </div>
